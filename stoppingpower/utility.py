@@ -8,4 +8,4 @@ def beta_2(T, m):
 def gamma_2(T, m):
     """ Gives value of gamma^2 for a given mass (MeV/c^2) and Kinetic Energy (MeV)
     """
-    return 1.0 / (1 - beta_2(T, m)) ** 0.5
+    return 1.0 / (1 - beta_2(T, m))

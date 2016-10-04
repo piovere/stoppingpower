@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec5b851-5df5-4e9b-b195-85141abb5ac6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stoppingpower/range.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stoppingpower/test/test_range.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stoppingpower/test/test_range.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/stoppingpower.iml" afterPath="$PROJECT_DIR$/.idea/stoppingpower.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stoppingpower/cmsp.py" afterPath="$PROJECT_DIR$/stoppingpower/cmsp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stoppingpower/materials.py" afterPath="$PROJECT_DIR$/stoppingpower/materials.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stoppingpower/range.py" afterPath="$PROJECT_DIR$/stoppingpower/range.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stoppingpower/test/test_cmsp.py" afterPath="$PROJECT_DIR$/stoppingpower/test/test_cmsp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stoppingpower/utility.py" afterPath="$PROJECT_DIR$/stoppingpower/utility.py" />
     </list>
     <ignored path="stoppingpower.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,12 +32,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf>
-          <file leaf-file-name="cmsp.py" pinned="false" current-in-tab="false">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="cmsp.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/stoppingpower/cmsp.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+                <state relative-caret-position="357">
+                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -41,12 +45,34 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="materials.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="utility.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stoppingpower/utility.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="materials.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/stoppingpower/materials.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="range.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stoppingpower/range.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="612">
+                  <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#21#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -54,26 +80,14 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="test_cmsp.py" pinned="false" current-in-tab="false">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="test_cmsp.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/stoppingpower/test/test_cmsp.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="515">
-                  <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+                <state relative-caret-position="265">
+                  <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="range.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/stoppingpower/range.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="7" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
-                  <folding>
-                    <element signature="e#0#21#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -96,17 +110,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stoppingpower/cmsp.py" />
         <option value="$PROJECT_DIR$/stoppingpower/materials.py" />
         <option value="$PROJECT_DIR$/stoppingpower/test/test_range.py" />
-        <option value="$PROJECT_DIR$/stoppingpower/test/test_cmsp.py" />
+        <option value="$PROJECT_DIR$/stoppingpower/utility.py" />
+        <option value="$PROJECT_DIR$/stoppingpower/cmsp.py" />
         <option value="$PROJECT_DIR$/stoppingpower/range.py" />
+        <option value="$PROJECT_DIR$/stoppingpower/test/test_cmsp.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
+    <option name="y" value="159" />
     <option name="width" value="2560" />
-    <option name="height" value="1080" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -133,8 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,52 +202,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Python tests.Unittest test_collisional_mass_stopping_power.test_range">
-    <configuration default="false" name="cmsp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stoppingpower" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="stoppingpower" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stoppingpower/cmsp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in test_collisional_mass_stopping_power" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stoppingpower/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="stoppingpower" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stoppingpower/test/test_cmsp.py" />
-      <option name="CLASS_NAME" value="test_collisional_mass_stopping_power" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittest test_collisional_mass_stopping_power.test_basic_CMSP_calculation" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,6 +279,45 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="cmsp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stoppingpower" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stoppingpower" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stoppingpower/cmsp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest test_collisional_mass_stopping_power.test_exit_energy" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stoppingpower/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stoppingpower" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stoppingpower/test/test_cmsp.py" />
+      <option name="CLASS_NAME" value="test_collisional_mass_stopping_power" />
+      <option name="METHOD_NAME" value="test_exit_energy" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,6 +345,19 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="stoppingpower" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ccruntests" factoryName="Run Study Tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stoppingpower" />
+      <option name="studyTest" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -434,16 +466,16 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.cmsp" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_collisional_mass_stopping_power" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest test_collisional_mass_stopping_power.test_basic_CMSP_calculation" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest test_collisional_mass_stopping_power.test_CMSP_with_complex_material" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest test_collisional_mass_stopping_power.test_range" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest test_collisional_mass_stopping_power.test_basic_CMSP_calculation" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest test_collisional_mass_stopping_power.test_CMSP_with_complex_material" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest test_collisional_mass_stopping_power.test_range" />
+      <item index="3" class="java.lang.String" itemvalue="Python.cmsp" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest test_collisional_mass_stopping_power.test_exit_energy" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest test_collisional_mass_stopping_power.test_range" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_collisional_mass_stopping_power" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest test_collisional_mass_stopping_power.test_exit_energy" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest test_collisional_mass_stopping_power.test_CMSP_with_complex_material" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest test_collisional_mass_stopping_power.test_basic_CMSP_calculation" />
         <item index="4" class="java.lang.String" itemvalue="Python.cmsp" />
@@ -464,58 +496,58 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.03 at 17h 50m 45s.xml">
+    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_CMSP_with_complex_material - 2016.10.04 at 15h 42m 31s.xml">
+      <configuration name="Unittest test_collisional_mass_stopping_power.test_CMSP_with_complex_material" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_CMSP_with_complex_material - 2016.10.04 at 15h 43m 19s.xml">
+      <configuration name="Unittest test_collisional_mass_stopping_power.test_CMSP_with_complex_material" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_CMSP_with_complex_material - 2016.10.04 at 15h 43m 55s.xml">
+      <configuration name="Unittest test_collisional_mass_stopping_power.test_CMSP_with_complex_material" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_CMSP_with_complex_material - 2016.10.04 at 15h 44m 06s.xml">
+      <configuration name="Unittest test_collisional_mass_stopping_power.test_CMSP_with_complex_material" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_exit_energy - 2016.10.04 at 16h 37m 14s.xml">
+      <configuration name="Unittest test_collisional_mass_stopping_power.test_exit_energy" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.04 at 15h 44m 12s.xml">
       <configuration name="Unittest test_collisional_mass_stopping_power.test_range" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.03 at 18h 08m 59s.xml">
+    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.04 at 15h 44m 27s.xml">
       <configuration name="Unittest test_collisional_mass_stopping_power.test_range" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.03 at 18h 09m 15s.xml">
+    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.04 at 15h 45m 10s.xml">
       <configuration name="Unittest test_collisional_mass_stopping_power.test_range" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.03 at 18h 10m 06s.xml">
+    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.04 at 15h 45m 50s.xml">
       <configuration name="Unittest test_collisional_mass_stopping_power.test_range" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.03 at 18h 12m 15s.xml">
-      <configuration name="Unittest test_collisional_mass_stopping_power.test_range" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.03 at 18h 13m 11s.xml">
-      <configuration name="Unittest test_collisional_mass_stopping_power.test_range" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.03 at 18h 19m 34s.xml">
-      <configuration name="Unittest test_collisional_mass_stopping_power.test_range" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.03 at 18h 20m 20s.xml">
-      <configuration name="Unittest test_collisional_mass_stopping_power.test_range" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.03 at 18h 21m 02s.xml">
-      <configuration name="Unittest test_collisional_mass_stopping_power.test_range" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.03 at 18h 21m 19s.xml">
+    <history-entry file="Unittest_test_collisional_mass_stopping_power_test_range - 2016.10.04 at 16h 38m 27s.xml">
       <configuration name="Unittest test_collisional_mass_stopping_power.test_range" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1080" extended-state="0" />
+    <frame x="1920" y="159" width="2560" height="1440" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39980638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10200866" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -534,12 +566,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/stoppingpower/cmsp.py</url>
-          <line>46</line>
+          <line>47</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/stoppingpower/cmsp.py</url>
-          <line>30</line>
+          <line>31</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
@@ -550,7 +582,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stoppingpower/cmsp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="510">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stoppingpower/cmsp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
           <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -558,19 +600,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stoppingpower/test/test_range.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stoppingpower/materials.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="595">
           <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
           <folding />
         </state>
@@ -578,7 +610,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stoppingpower/test/test_cmsp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
+        <state relative-caret-position="816">
           <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -588,10 +620,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stoppingpower/range.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stoppingpower/test/test_range.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stoppingpower/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stoppingpower/materials.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stoppingpower/range.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stoppingpower/cmsp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stoppingpower/test/test_cmsp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
