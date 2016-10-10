@@ -41,8 +41,8 @@ def S_c(z, medium, T, M_b):
     :type M_b: float
     :rtype: float
     """
-    I = medium.I_a()
-    Z = medium.Z_eff()
+    I = medium.I
+    Z = medium.Z
     M_m = medium.mass
 
     return normal_S_c(z, Z, T, M_b, I, M_m)

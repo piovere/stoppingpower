@@ -1,7 +1,8 @@
 from numpy import pi
+from pyne import nucname
 
 
-def cross_section(a1, a2):
+def microscopic_cross_section(a1, a2):
     r0 = 1.4 * 10 ** -13
 
     b1 = a1 ** (1.0 / 3.0)

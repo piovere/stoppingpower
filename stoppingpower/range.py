@@ -96,3 +96,11 @@ def energy_deposition(z, medium, T, M_b, thickness):
     result = T - energy_left
 
     return result
+
+
+def nuclear_fraction(beam_a, medium, thickness):
+    Sigma = medium.macroscopic_cross_section(beam_a)
+
+    res = 1.0 - np.exp(-1.0 * medium.macroscopic_cross_section(beam_a) * thickness)
+
+    return res
