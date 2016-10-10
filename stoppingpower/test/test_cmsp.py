@@ -1,10 +1,13 @@
 import unittest
 from stoppingpower.cmsp import *
 from stoppingpower.materials import materials
-from stoppingpower.range import rangeout, exit_energy
+from stoppingpower.range import rangeout, exit_energy, range_equation
+import logging
 
 
-class test_collisional_mass_stopping_power(unittest.TestCase):
+logging.basicConfig(filename='example.log',level=logging.DEBUG)
+
+class TestCollisionalMassStoppingPower(unittest.TestCase):
     def setUp(self):
         pass
 
@@ -21,6 +24,10 @@ class test_collisional_mass_stopping_power(unittest.TestCase):
 
         :rtype: NoneType
         """
+        PE = (truth - guess) / truth
+
+        logging.info("{0}\t\t\t{1}\t\t\t{2}".format(truth, guess, PE))
+
         self.assertLessEqual(
             self.percent_errror(truth, guess),
             self.max_error,
@@ -46,15 +53,15 @@ class test_collisional_mass_stopping_power(unittest.TestCase):
 
     def test_range(self):
         # 45 MeV proton in water
-        self.almost(1.841, rangeout(1.0, materials.get("Water"), 45.0, 1.0))
+        self.almost(1.841, range_equation(1.0, materials.get("Water"), 45.0, 1.0))
         # 600 MeV Carbon in Lead
-        self.almost(0.151, rangeout(6.0, materials.get("Lead, 82"), 600.0, 12.0))
+        self.almost(0.151, range_equation(6.0, materials.get("Lead, 82"), 600.0, 12.0))
         # 500 MeV/nucleon Ar (Z=18, A=40) in concrete
-        self.almost(7.06, rangeout(18.0, materials.get("Concrete"), 500.0 * 40.0, 39.948))
+        self.almost(7.06, range_equation(18.0, materials.get("Concrete"), 500.0 * 40.0, 39.948))
         # 20 MeV proton in air
-        self.almost(403.0, rangeout(1.0, materials.get("Air"), 20.0, 1.0))
+        self.almost(403.0, range_equation(1.0, materials.get("Air"), 20.0, 1.0))
         # 200 MeV/nucleon Ne (Z=10, A=20) in Aluminum
-        self.almost(2.493, rangeout(10.0, materials.get("Aluminum, 13"), 200.0 * 20.0, 20.0))
+        self.almost(2.493, range_equation(10.0, materials.get("Aluminum, 13"), 200.0 * 20.0, 20.0))
 
     def test_exit_energy(self):
         # 600 MeV/nucleon Oxygen (Z=8, A=16) through 1cm Aluminum = 578 MeV/nucleon
