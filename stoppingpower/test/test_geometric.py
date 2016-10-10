@@ -17,3 +17,16 @@ class TestGeometric(TestCase):
         test = cross_section(a3, a4)
         real = 0.412
         self.assertAlmostEqual(test, real, places=3)
+
+    def test_fraction_undergoing_nuclear_reaction(self):
+        # 600 MeV/nucleon Oxygen (Z=8, A=16) through 1cm Aluminum
+
+        # 500 MeV proton through 8mm of lead
+
+        # 430 MeV/nucleon Nitrogen (Z=7, A=14)
+
+        # 260 MeV/nucleon alpha through 4 cm water
+
+        # 800 MeV proton through 1km air
+
+        pass

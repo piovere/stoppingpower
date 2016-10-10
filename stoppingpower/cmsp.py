@@ -41,7 +41,7 @@ def S_c(z, medium, T, M_b):
     :type M_b: float
     :rtype: float
     """
-    I = medium.I_a
+    I = medium.I_a()
     Z = medium.Z_eff()
     M_m = medium.mass
 
