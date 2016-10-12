@@ -4,8 +4,11 @@
 <h1>Calculate Mass Stopping Power</h1>
 <h2>Enter values below:</h2>
 <form action="" method="post" name="cmsp">
-    {% if poo %}
-    Your value is {{ poo }}
+    {{ form.csrf_token }}
+    {% if poo is not none %}
+        Your value is {{ poo }}<br />
+    {% else %}
+        Enter your values:<br/>
     {% endif %}
     {{ form.hidden_tag() }}
     Enter Z of incident particle:

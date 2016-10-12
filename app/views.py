@@ -15,9 +15,20 @@ def index():
 @app.route('/cmsp', methods=['GET', 'POST'])
 def cmsp_page():
     form = StoppingPowerForm()
+    print form.errors
     if form.validate_on_submit():
-        flash('Your mass stopping power is {0}'.format(form.material))
-        poo = 'Your mass stopping power is {0}'.format(form.material)
+        if form.per_nucleon_bool is True:
+            t = float(form.incident_t.data) * float(form.incident_a.data)
+        else:
+            t = float(form.incident_t.data)
+        poo = S_c(
+            float(form.incident_z.data),
+            materials[form.material.data],
+            t,
+            float(form.incident_a.data)
+        )
+    else:
+        poo = None
     return render_template('cmsp.html',
                            form=form,
                            poo=poo)
