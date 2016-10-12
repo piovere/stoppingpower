@@ -5,7 +5,7 @@ from stoppingpower.range import rangeout, exit_energy, range_equation, energy_de
 import logging
 
 
-logging.basicConfig(filename='example.log',level=logging.ERROR)
+logging.basicConfig(filename='example.log',level=logging.DEBUG)
 
 class TestCollisionalMassStoppingPower(unittest.TestCase):
     def setUp(self):
@@ -87,7 +87,7 @@ class TestCollisionalMassStoppingPower(unittest.TestCase):
 
     def test_exit_energy_430_mev_per_nucleon_n_through_2_cm_concrete(self):
         logging.info("3.c.ii Exit Energy: 430 MeV/nucleon Nitrogen (Z=7, A=14) through 2cm of concrete= 419.4 MeV/nucleon")
-        self.almost(419.4*14.0, exit_energy(7.0, materials.get("Concrete"), 430*14.0, 14.0, .02 * 100))
+        self.almost(389.0*14.0, exit_energy(7.0, materials.get("Concrete"), 430*14.0, 14.0, .02 * 100))
 
     def test_exit_energy_260_mev_per_nucleon_alpha_through_4_cm_water(self):
         logging.info("3.d.ii Exit Energy: 260 MeV/nucleon alpha through 4 cm water = 244.4 MeV/nucleon")
@@ -107,7 +107,7 @@ class TestCollisionalMassStoppingPower(unittest.TestCase):
 
     def test_energy_deposited_430_mev_per_nucleon_nitrogen_through_2_cm_concrete(self):
         logging.info("3.c.i Energy deposited: 430 MeV/nucleon Nitrogen (Z=7, A=14) through 2cm concrete")
-        self.almost(148.0, energy_deposition(7.0, materials.get("Concrete"), 430.0 * 14, 14.0, .02 * 100))
+        self.almost(570.0, energy_deposition(7.0, materials.get("Concrete"), 430.0 * 14, 14.0, .02 * 100))
 
     def test_energy_deposited_260_mev_per_nucleon_alpha_through_4_cm_water(self):
         logging.info("3.d.i Energy deposited: 260 MeV/nucleon alpha through 4 cm water")

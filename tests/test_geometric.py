@@ -8,7 +8,7 @@ import numpy as np
 
 class TestGeometric(TestCase):
     def setUp(self):
-        logging.basicConfig(filename='example.log',level=logging.ERROR)
+        logging.basicConfig(filename='example.log',level=logging.DEBUG)
 
     def test_cross_section_against_homework_3(self):
         """ Compares two values from class homework 3-1

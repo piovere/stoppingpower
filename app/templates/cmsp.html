@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Calculate Mass Stopping Power</h1>
+<h2>Enter values below:</h2>
+<form action="" method="post" name="cmsp">
+    {% if poo %}
+    Your value is {{ poo }}
+    {% endif %}
+    {{ form.hidden_tag() }}
+    Enter Z of incident particle:
+    {{ form.incident_z() }}<br />
+    Enter A of incident particle:
+    {{ form.incident_a() }}<br />
+    Enter kinetic energy (T) of incident particle:
+    {{ form.incident_t() }}<br />
+    Energy expressed per nucleon?
+    {{ form.per_nucleon_bool() }}<br />
+    Select the medium:
+    {{ form.material }}
+    <p><input type="submit" value="Submit" /></p>
+</form>
+
+{% endblock %}

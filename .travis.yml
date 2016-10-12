@@ -6,7 +6,6 @@ python: 2.7
 
 env:
   - TOXENV=py27
-  - TOXENV=pypy
 
 before_install:
   - sudo docker pull pynedist/pyne-ubuntu
