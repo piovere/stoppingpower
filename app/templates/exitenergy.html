@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Calculate Mass Stopping Power</h1>
+<h1>Calculate Exit Energy</h1>
 <form action="" method="post" name="cmsp">
     {{ form.csrf_token }}
-    {% if sc is not none %}
-        <h2>Your value is {{ sc }} MeV cm^2/g</h2><br />
+    {% if ee is not none %}
+        <h2>Your value is {{ ee }} MeV ({{ eepn }} MeV/nucleon)</h2><br />
+        <h2>{{ deposited }} MeV was deposited in the material</h2>
     {% else %}
         <h2>Enter your values:</h2><br/>
     {% endif %}
@@ -19,7 +20,9 @@
     Energy expressed per nucleon?
     {{ form.per_nucleon_bool() }}<br />
     Select the medium:
-    {{ form.material }}
+    {{ form.material }}<br />
+    How thick is the material (in cm)?
+    {{ form.thickness }}
     <p><input type="submit" value="Submit" /></p>
 </form>
 

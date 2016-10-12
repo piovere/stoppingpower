@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Calculate Mass Stopping Power</h1>
+<h1>Calculate Range</h1>
 <form action="" method="post" name="cmsp">
     {{ form.csrf_token }}
-    {% if sc is not none %}
-        <h2>Your value is {{ sc }} MeV cm^2/g</h2><br />
+    {% if r is not none %}
+        <h2>Your value is {{ r }} cm</h2><br />
     {% else %}
         <h2>Enter your values:</h2><br/>
     {% endif %}
