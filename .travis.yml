@@ -24,7 +24,7 @@ install:
   - conda info -a
 
   # Replace dep1 dep2 ... with your dependencies
-  - conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION numpy scipy flask flask-wtf
+  - conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION numpy scipy flask flask-wtf pytest
   - source activate test-environment
   - conda install -c cyclus -c pyne pyne=0.5.0
   - pip freeze
