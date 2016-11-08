@@ -8,6 +8,9 @@ python:
 install:
   - sudo apt-get update
   - sudo apt-get install libstdc++6
+  - sudo add-apt-repository ppa:ubuntu-toolchain-r/test 
+  - sudo apt-get update
+  - sudo apt-get upgrade
   # We do this conditionally because it saves us some downloading if the
   # version is the same.
   - if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
