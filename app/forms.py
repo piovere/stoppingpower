@@ -1,7 +1,7 @@
 from flask_wtf import Form
 from wtforms import BooleanField, IntegerField, DecimalField, SelectField
 from wtforms.validators import DataRequired
-from stoppingpower.materials import materials
+from stoppingpower.stoppingpower.materials import materials
 
 
 class StoppingPowerForm(Form):

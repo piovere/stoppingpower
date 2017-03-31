@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='stoppingpower',
     version='0.1',
-    packages=['stoppingpower', 'stoppingpower.test'],
+    packages=['stoppingpower', 'tests'],
     url='',
     license='MIT',
     author='J.R. Powers-Luhn',
