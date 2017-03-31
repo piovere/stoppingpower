@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='stoppingpower',
-    version='0.1',
+    version='0.1.1',
     packages=['stoppingpower', 'tests'],
     url='',
     license='MIT',
