@@ -7,11 +7,11 @@ from scipy.special import expi
 
 def rangeout(z, medium, T, M_b):
     # Set up an interpolator so we don't have to calculate this more than we want to
-    T_r = np.linspace(1.0, T, 100000)
+    T_r = np.linspace(0.01, T, 100000)
     interpolator = interp1d(T_r, S_c(z, medium, T_r, M_b))
 
     # Don't need to check below this threshold
-    lower_limit = 2 * M_b
+    lower_limit = 0.1 * M_b
 
     # this is the tuning parameter.
     # units are in density*length (g/cm^2)
@@ -28,11 +28,11 @@ def rangeout(z, medium, T, M_b):
 
 def exit_energy(z, medium, T, M_b, thickness):
     # Set up an interpolator so we don't have to calculate this more than we want to
-    T_r = np.linspace(1.0, T, 100000)
+    T_r = np.linspace(0.01, T, 100000)
     interpolator = interp1d(T_r, S_c(z, medium, T_r, M_b))
 
     # Don't need to check below this threshold
-    lower_limit = 2 * M_b
+    lower_limit = 0.1 * M_b
 
     # this is the tuning parameter.
     # units are in density*length (g/cm^2)
