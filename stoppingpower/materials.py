@@ -3,7 +3,7 @@ from pyne import nuc_data
 from pyne.material import MaterialLibrary
 from pyne import nucname
 import scipy.constants as const
-from geometric import microscopic_cross_section
+from .geometric import microscopic_cross_section
 
 
 mats = MaterialLibrary(nuc_data, datapath='/material_library/materials', nucpath='/material_library/nucid')

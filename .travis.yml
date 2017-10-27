@@ -5,6 +5,7 @@ python:
   - "2.7"
   # - "3.3"
   # - "3.4"
+  - "3.5"
 install:
   - sudo apt-get update
   - sudo apt-get install libstdc++6
@@ -30,7 +31,8 @@ install:
   # Replace dep1 dep2 ... with your dependencies
   - conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION numpy scipy flask flask-wtf pytest
   - source activate test-environment
-  - conda install -c cyclus -c pyne pyne=0.5.0
+  # - conda install -c cyclus -c pyne pyne=0.5.0
+  - conda install -c conda-forge pyne=0.5.3
   - pip freeze
   - python setup.py install
 
