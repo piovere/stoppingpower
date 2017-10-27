@@ -21,7 +21,11 @@ def rangeout(z, medium, T, M_b):
     l = 0
     while t >= lower_limit:
         l += step / medium.density
-        t = t - interpolator(t) * step
+        i = interpolator(t)
+        if i <= 0:
+            break
+        else:
+            t = t - i * step
 
     return l
 
