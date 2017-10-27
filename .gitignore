@@ -5,3 +5,5 @@
 .cache/
 *.pyc
 example.log
+build/
+stoppingpower.egg-info/
