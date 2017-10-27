@@ -34,8 +34,8 @@ install:
   # - conda install -c cyclus -c pyne pyne=0.5.0
   - conda install -c conda-forge pyne=0.5.3
   # - pip freeze
-  # - python setup.py install
-  pip install -e
+  - python setup.py install
+  # pip install -e
 
 script:
   # Your test script goes here
